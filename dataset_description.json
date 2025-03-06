@@ -1,0 +1,8 @@
+{
+    "Name": "FRESH Motor Dataset",
+    "BIDSVersion": "1.7.0",
+    "DatasetType": "raw",
+    "Authors": [
+        "Rickson C. Mesquita"
+    ]
+}
