@@ -1,27 +1,80 @@
 {
   "version": "2.0",
-  "dataset_id": "on005963",
-  "source": "openneuro",
-  "source_id": "ds005963",
+  "pipeline_stage": "enriched",
   "title": "FRESH Motor Dataset",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Rickson C. Mesquita": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds005963.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on005963",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005963",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.7.0",
-  "recording_modality": [
+  "resource_type_general": "Dataset",
+  "modalities": [
     "nirs"
   ],
-  "datatypes": [
-    "nirs"
-  ]
+  "resource_type_specific": "fNIRS Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".html",
+    ".ipynb",
+    ".json",
+    ".md",
+    ".snirf",
+    ".tsv"
+  ],
+  "description": "The FRESH Motor Dataset is a functional near-infrared spectroscopy (fNIRS) neuroimaging dataset focused on motor cortex activity. This dataset contains raw fNIRS measurements collected during motor tasks and is organized according to the Brain Imaging Data Structure (BIDS) standard. The data is suitable for research on motor cortex hemodynamics, neurovascular coupling, and motor control mechanisms.",
+  "keywords": [
+    {
+      "term": "fNIRS"
+    },
+    {
+      "term": "motor cortex"
+    },
+    {
+      "term": "neuroimaging"
+    },
+    {
+      "term": "hemodynamics"
+    },
+    {
+      "term": "BIDS"
+    },
+    {
+      "term": "motor tasks"
+    },
+    {
+      "term": "neurovascular coupling"
+    },
+    {
+      "term": "SNIRF"
+    },
+    {
+      "term": "OpenNeuro"
+    }
+  ],
+  "methods_description": "fNIRS data were collected during motor tasks using standard acquisition protocols. Data are provided in SNIRF format and organized according to BIDS conventions for fNIRS datasets.",
+  "source_hash": "13c283cf8657dd6aa3de848ae0ba16e5b82cac978703ed8633978f259aef63ba"
 }
