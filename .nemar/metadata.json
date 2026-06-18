@@ -1,51 +1,14 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "FRESH Motor Dataset",
+  "description": "The FRESH Motor Dataset is a functional near-infrared spectroscopy (fNIRS) neuroimaging dataset focused on motor cortex activity. This dataset contains raw fNIRS measurements collected during motor tasks and is organized according to the Brain Imaging Data Structure (BIDS) standard. The data is suitable for research on motor cortex hemodynamics, neurovascular coupling, and motor control mechanisms.",
+  "methods_description": "fNIRS data were collected during motor tasks using a continuous-wave fNIRS system with standard acquisition protocols. Participants performed motor control tasks while hemodynamic responses were recorded from the motor cortex region. Data were acquired in SNIRF format and organized according to BIDS conventions for fNIRS datasets. The dataset includes raw optical density measurements and derived hemoglobin concentration changes.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
     "Rickson C. Mesquita": {}
   },
-  "related_identifiers": [
-    {
-      "identifier": "10.18112/openneuro.ds005963.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
-    },
-    {
-      "identifier": "https://github.com/nemarDatasets/on005963",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005963",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "10.21105/joss.01896",
-      "identifier_type": "DOI",
-      "relation_type": "References"
-    }
-  ],
-  "resource_type_general": "Dataset",
-  "modalities": [
-    "nirs"
-  ],
-  "resource_type_specific": "fNIRS Dataset",
-  "sizes": [
-    "0.0 KB (1 files)"
-  ],
-  "formats": [
-    ".html",
-    ".ipynb",
-    ".json",
-    ".md",
-    ".snirf",
-    ".tsv"
-  ],
-  "description": "The FRESH Motor Dataset is a functional near-infrared spectroscopy (fNIRS) neuroimaging dataset focused on motor cortex activity. This dataset contains raw fNIRS measurements collected during motor tasks and is organized according to the Brain Imaging Data Structure (BIDS) standard. The data is suitable for research on motor cortex hemodynamics, neurovascular coupling, and motor control mechanisms.",
   "keywords": [
     {
       "term": "fNIRS"
@@ -72,9 +35,47 @@
       "term": "SNIRF"
     },
     {
-      "term": "OpenNeuro"
+      "term": "functional neuroimaging"
     }
   ],
-  "methods_description": "fNIRS data were collected during motor tasks using standard acquisition protocols. Data are provided in SNIRF format and organized according to BIDS conventions for fNIRS datasets.",
-  "source_hash": "13c283cf8657dd6aa3de848ae0ba16e5b82cac978703ed8633978f259aef63ba"
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/nemarDatasets/on005963",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005963",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds005963.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    }
+  ],
+  "resource_type_general": "Dataset",
+  "resource_type_specific": "fNIRS Dataset",
+  "modalities": [
+    "nirs"
+  ],
+  "sizes": [
+    "244.7 MB (44 files)"
+  ],
+  "formats": [
+    ".html",
+    ".ipynb",
+    ".json",
+    ".md",
+    ".snirf",
+    ".tsv",
+    ".yml"
+  ],
+  "source_hash": "ad0dc0002cca6f80d27f95e127b8012ece6600082b98d1098d4b3f6151610134"
 }
