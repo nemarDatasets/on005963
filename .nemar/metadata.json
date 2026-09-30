@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "FRESH Motor Dataset",
-  "description": "The FRESH Motor Dataset is a functional near-infrared spectroscopy (fNIRS) neuroimaging dataset focused on motor cortex activity. This dataset contains raw fNIRS measurements collected during motor tasks and is organized according to the Brain Imaging Data Structure (BIDS) standard. The data is suitable for research on motor cortex hemodynamics, neurovascular coupling, and motor control mechanisms.",
+  "description": "The FRESH Motor Dataset is a functional near-infrared spectroscopy (fNIRS) dataset organized in BIDS format. It is associated with a motor task paradigm. The README gives little detail, and the record is a NEMAR-hosted version of the OpenNeuro deposit ds005963.",
   "methods_description": "fNIRS data were collected during motor tasks using a continuous-wave fNIRS system with standard acquisition protocols. Participants performed motor control tasks while hemodynamic responses were recorded from the motor cortex region. Data were acquired in SNIRF format and organized according to BIDS conventions for fNIRS datasets. The dataset includes raw optical density measurements and derived hemoglobin concentration changes.",
   "license": "CC0",
   "dataset_type": "raw",
@@ -14,38 +14,18 @@
       "term": "fNIRS"
     },
     {
-      "term": "motor cortex"
+      "term": "near-infrared spectroscopy"
     },
     {
-      "term": "neuroimaging"
-    },
-    {
-      "term": "hemodynamics"
+      "term": "motor task"
     },
     {
       "term": "BIDS"
-    },
-    {
-      "term": "motor tasks"
-    },
-    {
-      "term": "neurovascular coupling"
-    },
-    {
-      "term": "SNIRF"
-    },
-    {
-      "term": "functional neuroimaging"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on005963",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005963",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
@@ -58,6 +38,11 @@
       "identifier": "10.18112/openneuro.ds005963.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on005963",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "resource_type_general": "Dataset",
@@ -66,7 +51,7 @@
     "nirs"
   ],
   "sizes": [
-    "244.7 MB (44 files)"
+    "233 MB (44 files)"
   ],
   "formats": [
     ".html",
